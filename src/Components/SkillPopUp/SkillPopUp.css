@@ -1,0 +1,39 @@
+:root {
+  --max-width: 1200px;
+}
+
+.skillInfoPopUp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillInfoPopUp_inner {
+  position: relative;
+  border: 10px dashed #f1f3f5;
+  border-radius: 10px;
+  background-color: hsl(140, 100%, 21%);
+  color: #f0f0f0;
+  padding: 2rem;
+  max-width: var(--max-width);
+}
+
+.skillInfoPopUp_inner > button {
+  position: absolute;
+  cursor: pointer;
+  outline: transparent;
+  top: 8px;
+  right: 8px;
+  border-radius: 100%;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: tomato;
+  border-color: transparent;
+}

@@ -1,0 +1,55 @@
+:root {
+  --color-1: hsl(205, 68%, 69%);
+}
+
+.skill-info {
+  text-align: center;
+}
+
+.skill-info > h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+ul {
+  max-height: 40vh;
+  text-align: center;
+  list-style-type: none;
+  margin: 0 1.5rem;
+  padding: 0.5rem;
+  overflow-y: auto;
+  background-color: var(--color-1);
+  border-radius: 20px;
+}
+
+li {
+  margin: 0 1rem;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  padding: 0 2rem;
+}
+
+.horizontal-separator,
+.info-separator {
+  border: 1px dashed #f1f3f562;
+}
+
+.horizontal-separator {
+  margin: 1rem;
+}
+
+.right-section {
+  width: 120%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.optional {
+  margin-top: 20px;
+}

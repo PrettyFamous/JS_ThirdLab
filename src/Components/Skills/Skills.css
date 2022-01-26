@@ -1,0 +1,26 @@
+:root {
+  --skill-width: 320px;
+}
+
+.cards-list {
+  margin: 0.5rem auto;
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(var(--skill-width), 1fr));
+}
+
+.card {
+  border: none;
+  outline: transparent;
+  cursor: pointer;
+  margin: 0 auto;
+  width: var(--skill-width);
+  padding: 2rem;
+  background-color: hsla(205, 100%, 53%, 0.445);
+  border-radius: 10px;
+  transition: all 1s ease;
+}
+
+.card:hover {
+  background-color: hsla(152, 100%, 35%, 0.87);
+}
